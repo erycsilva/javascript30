@@ -3,4 +3,6 @@ window.addEventListener('keydown', function(e){
     // console.log(audio);
 
     if(!audio) return; // stop the function from running altogether.
+
+    audio.play();
 });
